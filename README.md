@@ -26,5 +26,5 @@ $ ./edit.sh <путь до файла> <строка, которую нужно 
 $ ./log_analyzer.sh <путь до файла>
 ```
 
-![Creeation](https://github.com/GorokhovSemyon/Simple_bash_scripst-MacOS-/tree/develop/materials/bin-bash.jpg)
+![Picture](https://github.com/GorokhovSemyon/Simple_bash_scripst-MacOS-/blob/develop/materials/bin-bash.jpg)
 
