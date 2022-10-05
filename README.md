@@ -1,5 +1,7 @@
 # Простейшие скрипты для bash под MacOS 
 
+![Picture](https://github.com/GorokhovSemyon/Simple_bash_scripst-MacOS-/blob/develop/materials/bin_bash.png)
+
 ## Введение
 
 Баш-скрипты могут существенно упростить обработку и внесение изменений в текстовые и бинарные файлы, а также дать возможность отражать эти изменения в файле логов, что и реализовано в простейших скриптах, которые находятся в src/.
@@ -25,6 +27,3 @@ $ ./edit.sh <путь до файла> <строка, которую нужно 
 ```
 $ ./log_analyzer.sh <путь до файла>
 ```
-
-![Picture](https://github.com/GorokhovSemyon/Simple_bash_scripst-MacOS-/blob/develop/materials/bin_bash.png)
-
