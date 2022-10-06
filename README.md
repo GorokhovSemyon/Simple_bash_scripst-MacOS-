@@ -1,29 +1,29 @@
-# Простейшие скрипты для bash под MacOS 
+# The simplest bash scripts for Mac OS
 
 ![Picture](https://github.com/GorokhovSemyon/Simple_bash_scripst-MacOS-/blob/develop/materials/bin_bash.png)
 
-## Введение
+## Introduction
 
-Баш-скрипты могут существенно упростить обработку и внесение изменений в текстовые и бинарные файлы, а также дать возможность отражать эти изменения в файле логов, что и реализовано в простейших скриптах, которые находятся в src/.
+Bash scripts can significantly simplify the processing and making changes to text and binary files, as well as make it possible to reflect these changes in the log file, which is implemented in the simplest scripts that are in src/.
 
-## Инструкция по применению
+## Instructions for use
 
-Важно заметить, что данные скрипты были написаны именно под MacOS, синтаксис в других ОС несущественно, но отличается.
-Для работы с этими скриптами стоит их склонировать, после чего появится возможность их 
-использовать. 
+It is important to note that these scripts were written specifically for macOS, the syntax in other operating systems is insignificant, but different.
+To work with these scripts, you should clone them, after which you will be able
+to use them.
 
-Скрипт edit.sh предназначен для поиска и последующей замены строк в файле на заданные.
+Script edit.sh designed to search for and then replace the lines in the file with the specified ones.
 
-Команда для использования скрипта edit.sh:
-
-```
-$ ./edit.sh <путь до файла> <строка, которую нужно найти> <строка, на которую заменить>
-```
-
-Скрипт log_analyzer.sh предназначен для анализа файла логов (общее количество записей, количество уникальных файлов и количество изменений, приведших к изменению hash файла).
-
-Команда для использования скрипта log_analyzer.sh:
+The command to use the script edit.sh:
 
 ```
-$ ./log_analyzer.sh <путь до файла>
+$ ./edit.sh <the path to the file> <the string to be found> <the string to replace>
+```
+
+Script log_analyzer.sh it is designed to analyze the log file (the total number of records, the number of unique files and the number of changes that led to a change in the hash file).
+
+The command to use the script log_analyzer.sh:
+
+```
+$ ./log_analyzer.sh <the path to the file>
 ```
